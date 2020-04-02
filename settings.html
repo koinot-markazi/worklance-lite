@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Worklance | Freelance marketplace</title>
+	<meta name="description" content="Freelance projects">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="img/dest/preview.jpg">
+	<link rel="stylesheet" href="css/app.min.css">
+
+</head>
+
+<body>
+
+	<!-- CUSTOM HTML -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt=""></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+		
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+				<a class="nav-link" href="index.html">Publications</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="users.html">Freelancers <span class="sr-only">(current)</span></a>
+				</li>
+			</ul>
+			<div class="d-flex ml-auto">
+				<div class="user-info mr-2">
+						<a href="settings.html">Bekhzodkhon Makhkamov</a>
+						<p>Freelancer</p>
+				</div>
+				<div class="user-image">
+					<img src="images/user-avatar.jpg" alt="" class="w-100">
+				</div>
+			</div>
+			</div>
+		</div>
+    </nav>
+	  <div class="container mt-4">
+		  <div class="row">
+			  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <h2>Settings</h2>
+                    <form action="" class="w-100">
+						<p>Personal Info</p>
+
+						<input id="fileinput" type="file" style="display:none;"/>
+
+						<button id="falseinput" type="button" class="custom-input">Choose avatar</button>
+						<span id="selected_filename">No file selected</span>
+
+                        <input type="text" class="custom-input mt-4" placeholder="Full Name">
+                        <select name="" id="" class="custom-input mt-2">
+                            <option value="1">Design</option>
+                            <option value="2">Front-end</option>
+                            <option value="3">Back-end</option>
+                        </select>
+
+                        <p class="mt-4">Privacy</p>
+                        <input type="text" class="custom-input" placeholder="Username">
+                        <input type="password" class="custom-input mt-2" placeholder="Password">
+                        <input type="password" class="custom-input mt-2" placeholder="Confirm Password">
+                        <input type="submit" class="custom-btn mt-2 float-right" value="Save">
+					</form>
+
+
+			  </div>
+			  <div class="offset-1 col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
+				<h2>Extra Information</h2>
+				<p>About</p>
+				<form action="">
+					<textarea name="" id="" rows="6" class="w-100 custom-input" placeholder="Type about yourself"></textarea>
+					<input type="submit" class="custom-btn mt-2 float-right" value="Save">
+				</form>
+				<div class="publication-list mt-5">
+					<a href="projectcontrol.html" class="custom-btn custom-btn-accent">Add publication</a>
+
+					<div class="publication-list-block mt-3">
+						<h5>Create some app on VueJS</h5>
+						<a href="projectcontrol.html" class="btn-edit mr-2">Edit</a>
+						<a href="#" class="btn-delete">Delete</a>
+					</div>
+					<div class="publication-list-block mt-3">
+						<h5>Create some app on React JS </h5>
+						<a href="projectcontrol.html" class="btn-edit mr-2">Edit</a>
+						<a href="#" class="btn-delete">Delete</a>
+					</div>
+				</div>
+			  </div>
+		  </div>
+	  </div>
+
+	<script src="js/app.min.js"></script>
+
+</body>
+</html>
